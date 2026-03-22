@@ -1,12 +1,12 @@
 # Home Security Bot
 
-A Telegram-controlled security robot built with a Raspberry Pi 4B, Arduino Uno, and a Logitech C525 webcam. Control the car remotely, take snapshots, and watch a live camera feed from anywhere via Tailscale.
+A Telegram controlled security robot built with a Raspberry Pi 4B, Arduino Uno, and a Logitech C525 webcam. Control the car remotely, take snapshots, and watch a live camera feed from anywhere via Tailscale.
 
 ## Features
 
 - Remote movement control via Telegram (`/forward`, `/backward`, `/left`, `/right`, `/stop`)
-- Snapshot on demand (`/snapshot`) — sends a 1080p photo to Telegram
-- Live camera stream (`/stream`) — accessible from anywhere via Tailscale
+- Snapshot on demand (`/snapshot`) which sends a 1080p photo accessible on Telegram
+- Live camera stream (`/stream`) which is made accessible from anywhere via Tailscale
 - Auto-starts on boot via systemd
 
 ## Hardware
